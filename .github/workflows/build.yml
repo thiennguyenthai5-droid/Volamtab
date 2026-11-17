@@ -1,4 +1,4 @@
-apkname: Build APK
+name: Build APK
 on:
   push:
   workflow_dispatch:
@@ -21,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: VolamTabs-apk
-          path: VolamTabs/app/build/outputs/apk/debug/*.apk
+          path: VolamTabs/app/build/outputs
